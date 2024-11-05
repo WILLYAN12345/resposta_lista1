@@ -1,0 +1,102 @@
+
+let numeros = [10, 20, 5, 30, 40];
+let posicao = numeros.indexOf(5);
+console.log(posicao);
+
+
+let nomes = ["Ana", "Beatriz", "Carlos"];
+let contemCarlos = nomes.includes("Carlos");
+
+console.log(contemCarlos);
+
+
+let frutas = ["maçã", "banana", "laranja"];
+
+frutas.forEach(function(fruta) {
+    console.log(fruta);
+});
+
+
+let numeros = [5, 10, 15, 20];
+let posicao = numeros.indexOf(15);
+
+console.log(posicao);
+
+
+let cores = ["azul", "verde", "vermelho"];
+let contemAmarelo = cores.includes("amarelo");
+
+console.log(contemAmarelo); 
+
+
+let linguagens = ["JavaScript", "Python", "Java"];
+
+linguagens.forEach(function(linguagem) {
+    console.log(linguagem);
+});
+
+
+let animais = ["gato", "cachorro", "pássaro", "cachorro"];
+let indice = animais.indexOf("cachorro");
+
+console.log(indice);
+
+let frutas = ["maçã", "banana", "uva"];
+
+if (frutas.includes("laranja")) {
+    console.log("false");
+} else {
+    console.log("false");
+}
+
+
+let numeros = [1, 2, 3, 4];
+
+let soma = numeros.reduce((acumulador, valorAtual) => acumulador + valorAtual, 0);
+
+console.log(soma);*/
+
+/*let frutas = ["banana", "maçã", "laranja"];
+
+let resultado = frutas.includes("morango");
+
+console.log(resultado);
+
+
+let linguagens = ["JavaScript", "Python", "Java"];
+
+let posicao = linguagens.indexOf("Python");
+
+console.log(posicao);
+
+
+let numeros = [2, 4, 6];
+
+// Multiplica cada número por 2
+for (let i = 0; i < numeros.length; i++) {
+    numeros[i] *= 2;  // Multiplica o valor atual por 2 e substitui no vetor
+}
+
+console.log(numeros); 
+
+
+let esportes = ["futebol", "basquete", "natação"];
+
+if (esportes.includes("beisebol")) {
+    console.log("false");
+} else {
+    console.log("false");
+}
+
+let frutas = ["maçã", "banana", "laranja"];
+
+let quantidade = frutas.length;
+
+console.log("Quantidade de frutas:", quantidade); 
+
+
+let cores = ["azul", "verde", "vermelho", "amarelo"];
+
+let posicao = cores.indexOf("vermelho");
+
+console.log("A posição do primeiro 'vermelho' é:", posicao);
